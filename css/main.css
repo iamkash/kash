@@ -1633,17 +1633,17 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #home {
-	background: #151515;
-	width: 100%;
-	height: 100%;
-	background-image: url(../images/intro-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	min-height: 804px;
-	position: relative;
+	background: #4C4E52;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: contain;
+    min-height: 804px;
+    position: relative;
 }
 
 #home .gradient-overlay {
@@ -1665,7 +1665,7 @@ header .header-logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .6;
+	opacity: .8;
 	background-color: #000000;
 }
 
