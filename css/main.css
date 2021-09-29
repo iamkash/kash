@@ -1633,17 +1633,17 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #home {
-	background: #4C4E52;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/intro-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: contain;
-    min-height: 804px;
-    position: relative;
+	background: #151515;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/intro-bg.JPG);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 804px;
+	position: relative;
 }
 
 #home .gradient-overlay {
@@ -1661,12 +1661,12 @@ header .header-logo a {
 
 #home .overlay {
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: .8;
-	background-color: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    background-color: #082032;
 }
 
 .home-content-table {
@@ -1726,12 +1726,13 @@ header .header-logo a {
 }
 
 .home-content-tablecell .home-section-links a {
-	font-family: "librebaskerville-regular", serif;
-	font-size: 1.8rem;
-	text-transform: none;
-	letter-spacing: 0;
-	color: #FFFFFF;
-	margin-left: .3rem;
+	ffont-family: "librebaskerville-regular", serif;
+    font-size: 2rem;
+    text-transform: none;
+    letter-spacing: 2px;
+    color: #03C4A1;
+    margin-left: 1rem;
+    font-weight: bold;
 }
 
 .scroll-icon {
@@ -1946,19 +1947,18 @@ header .header-logo a {
 
 .about-profile-bg {
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #EBEBEB;
-	width: 50%;
-	background-image: url(../images/profile-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	opacity: .35;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    width: 100%;
+    background-image: url(../images/intro-bg-kash.JPG);
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: contain;
+   
 }
 
 .about-wrap {
@@ -1979,7 +1979,7 @@ header .header-logo a {
 
 .about-profile,
 .about-services {
-	float: left;
+	float: right;
 	width: 50%;
 	padding-left: 20px;
 	padding-right: 20px;
