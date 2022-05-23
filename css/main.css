@@ -1699,7 +1699,7 @@ header .header-logo a {
 
 .home-content-tablecell h1 {
 	font-family: "librebaskerville-bold", serif;
-	font-size: 5.2rem;
+	font-size: 4.5rem;
 	line-height: 1.5;
 	color: #FFFFFF;
 }
@@ -2008,18 +2008,18 @@ header .header-logo a {
 	color: #757575;
 }
 
-.about-services ul.services {
+ul.services {
 	list-style: none;
 	margin-left: 0;
 }
 
-.about-services ul.services li {
+ul.services li {
 	padding-left: 0;
 	margin-bottom: .6rem;
 	position: relative;
 }
 
-.about-services ul.services li h4 {
+ul.services li h4 {
 	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
@@ -2027,12 +2027,12 @@ header .header-logo a {
 	margin-bottom: .6rem;
 }
 
-.about-services ul.services li p {
+ul.services li p {
 	margin-bottom: 1.5rem;
 	color: #4f4f4f;
 }
 
-.about-services ul.services .icon-wrap {
+ul.services .icon-wrap {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2040,23 +2040,23 @@ header .header-logo a {
 	color: #4C2405;
 }
 
-.about-services ul.services .icon-wrap i {
+ul.services .icon-wrap i {
 	font-size: 5rem;
 }
 
-.about-services ul.services .item-photography .icon-wrap {
+ul.services .item-photography .icon-wrap {
 	top: -.3rem;
 }
 
-.about-services ul.services .item-webdesign .icon-wrap {
+ul.services .item-webdesign .icon-wrap {
 	top: -.7rem;
 }
 
-.about-services ul.services .item-uiux .icon-wrap {
+ul.services .item-uiux .icon-wrap {
 	top: -.1rem;
 }
 
-.about-services ul.services .service-item {
+ul.services .service-item {
 	padding-left: 8rem;
 }
 
@@ -2145,42 +2145,71 @@ header .header-logo a {
 		text-align: center;
 	}
 
-	.about-services ul.services .icon-wrap {
+	 ul.services .icon-wrap {
 		position: static;
 		margin-bottom: .6rem;
 	}
 
-	.about-services ul.services .icon-wrap i {
+	 ul.services .icon-wrap i {
 		font-size: 6rem;
 	}
 
-	.about-services ul.services .service-item {
+	 ul.services .service-item {
 		padding-left: 0;
 		margin-bottom: 3rem;
 	}
 
-	.about-services ul.services .service-item h4 {
+	 ul.services .service-item h4 {
 		margin-bottom: 1.5rem;
 	}
 
 }
 
 /* ===================================================================
+ *  11. Core -comp - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+
+#core-comp {
+	position: relative;
+	padding: 10.8rem 0 10.8rem;
+	background-color: #EBEBEB;
+	min-height: 700px;
+}
+
+#core-comp h3 {
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.6rem;
+	color: #4C2405;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	margin: 0 0 0 .3rem;
+}
+
+#core-comp h1 {
+	font-family: "librebaskerville-bold", serif;
+	font-size: 3.3rem;
+	line-height: 1.455;
+}
+
+@media only screen and (max-width:768px) {
+	#core-comp {
+		padding-top: 0;
+	}
+}
+
+
+/* ===================================================================
  *  11. skills - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #skills {
-	background-color: #1f0e01;
-	background-image: url(../images/skills-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+	background-color: #fff;
 	min-height: 800px;
 	position: relative;
 	padding: 12rem 0 9.6rem;
-	color: rgba(255, 255, 255, 0.3);
+	
 }
 
 #skills .overlay {
@@ -2211,7 +2240,7 @@ header .header-logo a {
 }
 
 #skills [class="col-skills"] {
-	width: 50%;
+	
 	padding-right: 0;
 }
 
@@ -2287,7 +2316,7 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #credentials {
-	background: #FFFFFF;
+	background: #EBEBEB;
 	position: relative;
 	padding: 12rem 0 9rem;
 }
