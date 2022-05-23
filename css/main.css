@@ -3201,3 +3201,7 @@ footer .footer-social li:last-child {
 .bg-grey{
 	background: #EBEBEB;
 }
+
+.about-core-comp-services{
+	width: 100% !important;
+}

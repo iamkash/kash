@@ -507,7 +507,8 @@ textarea {
 		width: 75%;
 	}
 
-	.tab-full {
+	.col-six, .col-four,
+.col-1-2, .tab-full {
 		width: 100%;
 	}
 
@@ -543,7 +544,8 @@ textarea {
 		width: 75%;
 	}
 
-	.mob-full {
+	.col-six, .col-four,
+.col-1-2, .mob-full {
 		width: 100%;
 	}
 
