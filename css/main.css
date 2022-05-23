@@ -29,7 +29,9 @@
  *  01. webfonts and iconfonts - (_document-setup)
  *
  * ------------------------------------------------------------------- */
-@import url("font-awesome/css/font-awesome.min.css");
+/* @import url("font-awesome/css/font-awesome.min.css"); */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 @import url("windows10/windows10.css");
 
 /* montserrat */
@@ -2316,7 +2318,6 @@ ul.services .service-item {
  *
  * ------------------------------------------------------------------- */
 #credentials {
-	background: #EBEBEB;
 	position: relative;
 	padding: 12rem 0 9rem;
 }
@@ -3191,4 +3192,12 @@ footer .footer-social li:last-child {
 		right: 0;
 	}
 
+}
+
+.bg-white{
+	background: #ffffff;
+}
+
+.bg-grey{
+	background: #EBEBEB;
 }
