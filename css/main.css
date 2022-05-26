@@ -2317,12 +2317,12 @@ ul.services .service-item {
  *  12. credentials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#credentials {
+.credentials {
 	position: relative;
 	padding: 12rem 0 9rem;
 }
 
-#credentials .credentials-content h2 {
+.credentials .credentials-content h2 {
 	margin-bottom: 4.8rem;
 	color: #4C2405;
 	padding-left: 8rem;
@@ -2332,7 +2332,7 @@ ul.services .service-item {
 	position: relative;
 }
 
-#credentials .credentials-content h2::before {
+.credentials .credentials-content h2::before {
 	display: block;
 	content: "";
 	height: 3px;
@@ -2344,20 +2344,20 @@ ul.services .service-item {
 	margin-top: -3px;
 }
 
-#credentials .left {
+.credentials .left {
 	padding-right: 40px;
 }
 
-#credentials .right {
+.credentials .right {
 	padding-left: 40px;
 }
 
-#credentials .timeline-wrap {
+.credentials .timeline-wrap {
 	position: relative;
 	text-align: left;
 }
 
-#credentials .timeline-wrap::before {
+.credentials .timeline-wrap::before {
 	content: "";
 	display: block;
 	width: 1px;
@@ -2368,13 +2368,13 @@ ul.services .service-item {
 	top: 0;
 }
 
-#credentials .timeline-block {
+.credentials .timeline-block {
 	position: relative;
 	padding-left: 8rem;
 	margin-bottom: 4.2rem;
 }
 
-#credentials .timeline-ico {
+.credentials .timeline-ico {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
@@ -2388,14 +2388,14 @@ ul.services .service-item {
 	margin-left: -2.4rem;
 }
 
-#credentials .timeline-header .timeframe {
+.credentials .timeline-header .timeframe {
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 1.6rem;
 	color: #757575;
 	margin-bottom: 0;
 }
 
-#credentials .timeline-header h3 {
+.credentials .timeline-header h3 {
 	font-size: 2.4rem;
 	line-height: 1.25;
 	margin-bottom: 0;
@@ -2406,53 +2406,53 @@ ul.services .service-item {
  * credentials
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1024px) {
-	#credentials .left {
+	.credentials .left {
 		padding-right: 20px;
 	}
 
-	#credentials .right {
+	.credentials .right {
 		padding-left: 20px;
 	}
 
 }
 
 @media only screen and (max-width:768px) {
-	#credentials .credentials-content h2 {
+	.credentials .credentials-content h2 {
 		padding: 0;
 		text-align: center;
 	}
 
-	#credentials .credentials-content h2::before {
+	.credentials .credentials-content h2::before {
 		display: none;
 	}
 
-	#credentials .left {
+	.credentials .left {
 		padding-right: 10px;
 	}
 
-	#credentials .right {
+	.credentials .right {
 		padding-left: 10px;
 	}
 
 }
 
 @media only screen and (max-width:600px) {
-	#credentials .timeline-block {
+	.credentials .timeline-block {
 		padding-left: 7rem;
 	}
 
 }
 
 @media only screen and (max-width:400px) {
-	#credentials .timeline-header .timeframe {
+	.credentials .timeline-header .timeframe {
 		font-size: 1.5rem;
 	}
 
-	#credentials .timeline-header h3 {
+	.credentials .timeline-header h3 {
 		font-size: 2.2rem;
 	}
 
-	#credentials .timeline-block {
+	.credentials .timeline-block {
 		padding-left: 6rem;
 	}
 
