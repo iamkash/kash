@@ -1306,6 +1306,10 @@ input::-moz-focus-inner {
 	max-width: 1300px;
 }
 
+.full-wide{
+	max-width: 100% !important;
+}
+
 .narrow {
 	max-width: 800px;
 }
@@ -2019,6 +2023,11 @@ ul.services li {
 	padding-left: 0;
 	margin-bottom: .6rem;
 	position: relative;
+	min-height: 20rem;
+}
+
+.item-header{
+	min-height: 5rem !important;
 }
 
 ul.services li h4 {
