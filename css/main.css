@@ -2107,7 +2107,7 @@ ul.services .service-item {
 		width: 100%;
 	}
 
-	.about-profile-bg {
+	.about-profile-bg, .about-profile-eqi {
 		display: none;
 	}
 
