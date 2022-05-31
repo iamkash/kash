@@ -3214,3 +3214,19 @@ footer .footer-social li:last-child {
 .about-core-comp-services{
 	width: 100% !important;
 }
+
+.about-profile-eqi {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    width: 100%;
+    background-image: url(../images/eqi.JPG);
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: contain;
+   
+}
