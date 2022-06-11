@@ -2023,7 +2023,7 @@ ul.services li {
 	padding-left: 0;
 	margin-bottom: .6rem;
 	position: relative;
-	min-height: 20rem;
+	min-height: 26rem;
 }
 
 .item-header{
@@ -3230,3 +3230,4 @@ footer .footer-social li:last-child {
     background-size: contain;
    
 }
+
