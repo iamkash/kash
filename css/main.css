@@ -1671,8 +1671,8 @@ header .header-logo a {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .75;
-    background-color: #082032;
+    opacity: .3;
+    background-color: #000;
 }
 
 .home-content-table {
@@ -1690,8 +1690,8 @@ header .header-logo a {
 
 .home-content-tablecell .row {
 	position: relative;
-	padding-top: 4.2rem;
-	padding-bottom: 15rem;
+    padding-top: 15.2rem;
+    padding-bottom: 4rem;
 }
 
 .home-content-tablecell h3 {
@@ -1705,7 +1705,7 @@ header .header-logo a {
 
 .home-content-tablecell h1 {
 	font-family: "librebaskerville-bold", serif;
-	font-size: 4.5rem;
+	font-size: 3rem;
 	line-height: 1.5;
 	color: #FFFFFF;
 }
@@ -1957,7 +1957,7 @@ header .header-logo a {
     left: 0;
     width: 100%;
     height: 100%;   
-    width: 100%;
+	width: 50%;
     background-image: url(../images/intro-bg-kash.JPG);
     background-repeat: no-repeat;
     background-position: left;
@@ -2257,7 +2257,7 @@ ul.services .service-item {
  *
  * ------------------------------------------------------------------- */
 #skills , #volunteering{
-	background-color: #fff;
+	
 	position: relative;
 	padding: 12rem 0 9.6rem;
 	
@@ -2885,7 +2885,7 @@ text-justify: inter-word;
 	background-color: #000000;
 }
 
-#contact .section-intro h1 {
+#contact .section-intro h4 {
 	color: white;
 }
 
