@@ -31,7 +31,7 @@
  * ------------------------------------------------------------------- */
 /* @import url("font-awesome/css/font-awesome.min.css"); */
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 @import url("windows10/windows10.css");
 
 /* montserrat */
@@ -406,7 +406,7 @@ dl,
 form,
 .fluid-video-wrapper,
 .ss-custom-select {
-	margin-bottom: 3rem;
+	margin-bottom: 0.5rem;	
 }
 
 /* ------------------------------------------------------------------- 
@@ -1800,7 +1800,7 @@ header .header-logo a {
 	}
 
 	.home-content-tablecell h1 {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 
 }
@@ -2011,7 +2011,8 @@ header .header-logo a {
 }
 
 .about-services p.lead {
-	color: #757575;
+	color: #4f4f4f;
+    font-size: 1.5rem;
 }
 
 ul.services {
@@ -2023,7 +2024,7 @@ ul.services li {
 	padding-left: 0;
 	margin-bottom: .6rem;
 	position: relative;
-	min-height: 26rem;
+	min-height: 18rem;
 }
 
 .item-header{
@@ -2176,6 +2177,42 @@ ul.services .service-item {
 
 }
 
+
+/* ===================================================================
+ *  11. Core -comp - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+
+ #accompl {
+	position: relative;
+	padding: 10.8rem 0 10.8rem;
+	background-color: #ddd;
+	min-height: 700px;
+}
+
+#accompl h3 {
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.6rem;
+	color: #4C2405;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	margin: 0 0 0 .3rem;
+}
+
+#accompl h1 {
+	font-family: "librebaskerville-bold", serif;
+	font-size: 3.3rem;
+	line-height: 1.455;
+}
+
+@media only screen and (max-width:768px) {
+	#accompl {
+		padding-top: 0;
+	}
+}
+
+
 /* ===================================================================
  *  11. Core -comp - (_layout.scss)
  *
@@ -2204,6 +2241,10 @@ ul.services .service-item {
 	line-height: 1.455;
 }
 
+#core-comp ul.services li{
+	min-height: 103px;
+}
+
 @media only screen and (max-width:768px) {
 	#core-comp {
 		padding-top: 0;
@@ -2215,9 +2256,8 @@ ul.services .service-item {
  *  11. skills - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#skills {
+#skills , #volunteering{
 	background-color: #fff;
-	min-height: 800px;
 	position: relative;
 	padding: 12rem 0 9.6rem;
 	
@@ -2409,6 +2449,27 @@ ul.services .service-item {
 	line-height: 1.25;
 	margin-bottom: 0;
 }
+
+.credentials h3, .h03, h4, .h04 {
+    margin-bottom: 0;
+}
+
+.credentials p {
+    
+text-align: justify;
+text-justify: inter-word;
+}
+.credentials .lead {
+    
+	text-align: center !important;
+	}
+
+
+.credentials .small-text-info{
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -3229,5 +3290,18 @@ footer .footer-social li:last-child {
     -moz-background-size: cover;
     background-size: contain;
    
+}
+
+.sub-text{
+	padding-left: 3rem;
+}
+
+.call-out{
+	background: #03C4A1;
+    color: #fff;
+    min-height: 8rem;
+    padding: 1rem;
+    font-weight: 800;
+    text-align: center;
 }
 
