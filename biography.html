@@ -212,12 +212,53 @@
         }
 
         @media (max-width: 768px) {
-            .narrative-content {
-                column-count: 1;
+            body {
+                overflow-y: auto;
+                /* Allow body to scroll vertically */
+                height: auto;
+                /* Let body height adjust to content */
+            }
+
+            main {
+                height: auto;
+                /* Let main content height adjust */
+                overflow-y: auto;
+                /* Allow vertical scroll */
+                overflow-x: hidden;
+                /* Prevent horizontal scroll */
+                margin-top: 60px;
+                /* Adjust margin if header height changes */
+                padding: 1.5rem 5vw;
+                /* Adjust padding */
+            }
+
+            header {
+                height: 60px;
+                /* Slightly smaller header */
+                padding: 1rem 5vw;
+            }
+
+            .role {
+                font-size: 11px;
+                margin-bottom: 0.3rem;
+            }
+
+            .role-descriptor {
+                display: none;
+                /* Hide the descriptor on mobile */
             }
 
             h1 {
-                font-size: 36px;
+                font-size: 24px;
+            }
+
+            .narrative-content {
+                column-count: 1;
+                column-rule: none;
+                /* Remove column rule */
+                height: auto;
+                /* Let content determine height */
+                max-width: 100%;
             }
 
             .intro {
@@ -226,6 +267,16 @@
 
             p {
                 font-size: 16px;
+            }
+
+            .quote {
+                font-size: 20px;
+            }
+
+            footer {
+                height: auto;
+                /* Adjust footer height */
+                padding: 1rem 0;
             }
         }
 
@@ -256,7 +307,8 @@
 
     <header>
         <div class="header-content">
-            <div class="role">Chief Technology Officer | Global Enterprise Value Creator</div>
+            <div class="role">Chief Technology Officer<span class="role-descriptor"> | Global Enterprise Value
+                    Creator</span></div>
             <h1>Kashif Mohammed</h1>
         </div>
         <a href="index.html" class="nav-link">← Back to Main Page</a>
