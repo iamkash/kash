@@ -1,0 +1,6 @@
+# Allow all ethical crawlers access to the entire site
+User-agent: *
+Allow: /
+
+# Also point compliant crawlers to the sitemap
+Sitemap: https://www.iamkash.info/sitemap.xml 
