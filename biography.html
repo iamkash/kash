@@ -14,21 +14,22 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <title>Kashif Mohammed | Architecting Tomorrow: From Code to $500M Enterprise Value | AI Innovation & Digital
-        Transformation Pioneer</title>
+    <title>Kashif (Kash) - Global Technology Leader | CTO Profile & Journey</title>
     <meta name="description"
-        content="Kashif Mohammed: CTO with AI experience, driving GenAI transformation and global engineering leadership. Houston-based executive technology leader in SaaS, healthcare, and energy sectors with cloud, AI, and P&L responsibility. Generated over $500M enterprise value.">
+        content="Meet Kashif, the visionary Global CTO known as Kash M. (Kashif Mohammed). Leading enterprise innovation and digital transformation with expertise in AI, cloud architecture, and platform engineering.">
     <meta name="keywords"
-        content="Kashif Mohammed, CTO, CTO with AI experience, CTO for SaaS startup, CTO GenAI transformation, Executive technology leader, Global engineering leadership, Tech executive digital health, Fractional CTO, CTO P&L responsibility, AI-driven SaaS platform CTO, CTO Experience in SaaS and AI, Healthcare Technology Leadership, GenAI Cloud Platform Strategy, Executive Leadership Global Tech, Houston CTO, SaaS CTO, AI CTO, Healthcare CTO, Energy CTO, Digital Transformation, Cloud Architecture, Platform Engineering, MedAlly.ai, Calonji Inc">
-    <meta property="og:title" content="Kashif Mohammed - Technology Leadership Journey">
+        content="Kashif, Kash, Kashif Mohammed, Kash M., Kashif I Mohammed, Kash Mohammed, iamkash, Global CTO, Technology Leader, Enterprise AI, Digital Transformation, Cloud Architecture, Platform Engineering, GenAI Strategy, Global Engineering Leadership">
+    <meta property="og:title" content="Kashif - Global Technology Leader & CTO">
     <meta property="og:description"
-        content="From India to global technology leadership: How Kashif Mohammed transformed enterprise technology across Fortune 500 companies.">
+        content="Discover Kashif's journey from engineer to global CTO, transforming enterprise technology across Fortune 500 companies and startups.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://iamkash.info/biography">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kashif Mohammed - Technology Leadership Journey">
+    <meta name="twitter:title" content="Kashif - Global Technology Leader & CTO">
     <meta name="twitter:description"
-        content="From India to global technology leadership: How Kashif Mohammed transformed enterprise technology across Fortune 500 companies.">
+        content="Discover Kashif's journey from engineer to global CTO, transforming enterprise technology across Fortune 500 companies and startups.">
+    <meta name="author" content="Kashif">
+    <link rel="canonical" href="https://iamkash.info/biography">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,67 +58,75 @@
             background: var(--ft-background);
             font-family: "Georgia", serif;
             color: var(--ft-text);
-            display: grid;
-            grid-template-rows: auto 1fr auto;
+            display: flex;
+            flex-direction: column;
             overflow: hidden;
             -webkit-font-smoothing: antialiased;
         }
 
         header {
-            padding: 1.5rem 4vw;
-            height: 80px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 100;
-            background: var(--ft-background);
-            border-bottom: 1px solid var(--ft-border);
+            padding: 0.5rem 0;
+            margin-bottom: 1rem;
+            text-align: center;
+            height: auto;
+            flex-shrink: 0;
+            position: relative;
         }
 
-        .header-content {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .nav-link {
-            font-family: "Metric", sans-serif;
+        .home-link {
+            position: absolute;
+            left: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
             color: var(--ft-accent);
             text-decoration: none;
-            font-size: 14px;
+            font-size: 0.9rem;
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             transition: opacity 0.2s;
+            z-index: 10;
         }
 
-        .nav-link:hover {
+        .home-link:hover {
             opacity: 0.8;
         }
 
+        .home-link i {
+            font-size: 1rem;
+        }
+
         .role {
-            font-family: "Metric", sans-serif;
-            font-size: 14px;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--ft-accent);
-            margin-bottom: 0.5rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.1;
+            margin-bottom: 0.25rem;
+        }
+
+        .role-descriptor {
+            font-size: 1.25rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
         }
 
         h1 {
-            font-family: "Financier Display", Georgia, serif;
-            font-size: 48px;
-            font-weight: 500;
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0;
             line-height: 1;
-            color: #1A1818;
+            color: #1a1a1a;
         }
 
         main {
-            margin-top: 80px;
-            height: calc(100vh - 120px);
+            flex: 1;
             overflow-x: scroll;
             overflow-y: hidden;
-            padding: 2rem 4vw;
+            padding: 1rem 4vw;
+            position: relative;
         }
 
         .narrative-content {
@@ -128,6 +137,7 @@
             column-fill: auto;
             max-width: 1600px;
             margin: 0 auto;
+            padding-bottom: 2rem;
         }
 
         .intro {
@@ -180,9 +190,12 @@
         }
 
         footer {
-            height: 40px;
+            height: 30px;
             text-align: center;
-            padding: 10px 0;
+            padding: 5px 0;
+            flex-shrink: 0;
+            background: var(--ft-background);
+            border-top: 1px solid var(--ft-border);
         }
 
         footer p {
@@ -235,21 +248,31 @@
             header {
                 height: 60px;
                 /* Slightly smaller header */
-                padding: 1rem 5vw;
+                padding: 0.5rem 1rem;
+                position: relative;
+            }
+
+            .home-link {
+                position: relative;
+                left: 0;
+                top: 0;
+                transform: none;
+                margin-bottom: 0.5rem;
+                justify-content: center;
+                font-size: 0.8rem;
+            }
+
+            .home-link i {
+                font-size: 0.9rem;
             }
 
             .role {
-                font-size: 11px;
-                margin-bottom: 0.3rem;
-            }
-
-            .role-descriptor {
-                display: none;
-                /* Hide the descriptor on mobile */
+                font-size: 0.8rem;
+                margin-bottom: 0.2rem;
             }
 
             h1 {
-                font-size: 24px;
+                font-size: 1.5rem;
             }
 
             .narrative-content {
@@ -280,6 +303,24 @@
             }
         }
 
+        @media (max-width: 480px) {
+            header {
+                padding: 0.5rem;
+            }
+
+            .home-link {
+                font-size: 0.75rem;
+            }
+
+            .role {
+                font-size: 0.7rem;
+            }
+
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+
         /* Additional styles for new content */
         .chapter-heading {
             font-family: "Financier Display", Georgia, serif;
@@ -297,6 +338,27 @@
             break-inside: avoid;
         }
     </style>
+
+    <!-- Additional Structured Data for Name Variations -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Kashif",
+        "additionalName": "I",
+        "familyName": "Mohammed",
+        "alternateName": ["Kash", "Kash M.", "iamkash"],
+        "name": "Kashif Mohammed",
+        "jobTitle": "Chief Technology Officer",
+        "description": "Global technology leader and CTO known as Kashif or Kash, specializing in enterprise AI, digital transformation, and platform engineering.",
+        "url": "https://iamkash.info",
+        "sameAs": [
+            "https://www.linkedin.com/in/iamkash",
+            "https://kashif-mohammed.medium.com",
+            "https://www.calonji.com"
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -306,17 +368,70 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
-        <div class="header-content">
-            <div class="role">Chief Technology Officer<span class="role-descriptor"> | Global Enterprise Value
-                    Creator</span></div>
-            <h1>Kashif Mohammed</h1>
-        </div>
-        <a href="index.html" class="nav-link">← Back to Main Page</a>
+        <a href="index.html" class="home-link">
+            <i class="fa fa-arrow-left"></i> Back to Home
+        </a>
+        <div class="role">Chief Technology Officer | Digital Transformation Leader | AI and Cloud Strategist</div>
+        <h1>Kashif I. Mohammed</h1>
     </header>
 
     <main>
         <div class="narrative-content">
             <p class="intro">
+                Kashif I. Mohammed is a seasoned Chief Technology Officer with 18 years of global leadership experience
+                scaling enterprise SaaS platforms, modernizing multi-cloud architectures, and driving AI-powered digital
+                transformation. He has led organizations of up to 250 global engineers, managed P&Ls exceeding $500
+                million, and delivered over $500 million in enterprise value across Fortune 500 companies, private
+                equity-backed firms, and high-growth technology enterprises.
+            </p>
+
+            <p class="intro">
+                Kashif currently serves as Chief Technology Officer at <a href="https://www.calonji.com" target="_blank"
+                    class="external-link">Calonji Inc</a> where he leads the development of <a
+                    href="https://www.medally.ai" target="_blank" class="external-link">MedAlly.ai</a>, a multilingual,
+                HIPAA-compliant healthcare SaaS platform that embeds Generative AI copilots into real-time clinical
+                workflows. Previously, he held senior technology leadership roles at S&P Global and ABS Group,
+                delivering over $30 million in new SaaS revenue, achieving 20 percent reductions in operating expenses,
+                launching federated data mesh architectures, and advising boards on AI governance and enterprise
+                platform modernization.
+            </p>
+
+            <p class="intro">
+                He is recognized for his expertise in cloud transformation across AWS and Azure environments, data
+                platform engineering, Zero Trust cybersecurity, and AI strategy execution. Kashif focuses on aligning
+                technology strategy with business outcomes to drive operational excellence, revenue acceleration, and
+                long-term enterprise value creation.
+            </p>
+
+            <p class="intro">
+                He holds an MBA from The University of Texas at Austin and a Master's degree in Computer Engineering
+                from the University of Houston–Clear Lake. He is also certified in AWS Solutions Architecture, SAFe
+                Agile Practices, and Generative AI Strategy through MIT. Kashif actively mentors emerging technology
+                leaders and champions high-performance, innovation-driven cultures.
+            </p>
+
+            <div class="quote">
+                "Technology leadership isn't just about managing systems—it's about orchestrating transformation,
+                fostering innovation, and creating lasting impact through strategic execution."
+            </div>
+
+            <h2 class="chapter-heading">Early Years and Academic Foundation</h2>
+            <p>
+                Born and raised in India, Kashif's early years were marked by a voracious curiosity and a unique talent
+                for breaking down complex problems—traits that would become hallmarks of his technical and leadership
+                journey. He pursued his Bachelor of Technology in Electronics and Communication Engineering at
+                Jawaharlal Nehru
+                Technological University, graduating in 2005. This phase cultivated a strong analytical mindset and
+                provided foundational exposure to systems thinking and engineering rigor.
+            </p>
+
+            <div class="quote">
+                "Curiosity was never just a trait—it was a discipline. I learned early that the best leaders are
+                lifelong learners who ask better questions before offering better answers."
+            </div>
+
+            <h2 class="chapter-heading">The Journey: From Engineer to Enterprise Value Creator</h2>
+            <p>
                 In the dynamic landscape of <span class="keyword">global technology leadership</span>, <a
                     href="https://www.linkedin.com/in/iamkash/" class="external-link" target="_blank">Kashif
                     Mohammed's</a> journey—anchored in <span class="keyword">Houston</span>—stands as a testament to the
@@ -328,24 +443,6 @@
                     class="keyword">global engineering leadership</span> across multiple industries. His story embodies
                 the evolution of modern technology
                 leadership where technical expertise meets strategic acumen.
-            </p>
-
-            <div class="quote">
-                "Technology leadership isn't just about managing systems—it's about orchestrating transformation,
-                fostering
-                innovation, and creating lasting impact through strategic execution."
-            </div>
-
-            <h2 class="chapter-heading">Early Years and Academic Foundation</h2>
-            <p>
-                Born and raised in India, Kashif's early years were marked by a voracious curiosity and a unique talent
-                for
-                breaking down complex problems—traits that would become hallmarks of his technical and leadership
-                journey. He
-                pursued his Bachelor of Technology in Electronics and Communication Engineering at Jawaharlal Nehru
-                Technological University, graduating in 2005. This phase cultivated a strong analytical mindset and
-                provided
-                foundational exposure to systems thinking and engineering rigor.
             </p>
 
             <div class="quote">
