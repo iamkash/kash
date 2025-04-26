@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#">
 
 <head>
     <!-- Google Tag Manager -->
@@ -14,24 +14,85 @@
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
-    <title>Kashif (Kash) - Global Technology Leader | CTO Profile & Journey</title>
+    <title>Kashif Mohammed: Journey of a Fortune 500 CTO | Leadership Story</title>
     <meta name="description"
-        content="Meet Kashif, the visionary Global CTO known as Kash M. (Kashif Mohammed). Leading enterprise innovation and digital transformation with expertise in AI, cloud architecture, and platform engineering.">
+        content="Explore the leadership journey of Kashif Mohammed (Kash), Fortune 500 CTO driving enterprise value through AI innovation and digital transformation.">
     <meta name="keywords"
-        content="Kashif, Kash, Kashif Mohammed, Kash M., Kashif I Mohammed, Kash Mohammed, iamkash, Global CTO, Technology Leader, Enterprise AI, Digital Transformation, Cloud Architecture, Platform Engineering, GenAI Strategy, Global Engineering Leadership">
-    <meta property="og:title" content="Kashif - Global Technology Leader & CTO">
+        content="Kashif Mohammed Biography, Kashif CTO, Kash CTO, Fortune 500 CTO, Technology Leader Story">
+    <meta name="author" content="Kashif Mohammed">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iamkash.info/biography" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Kashif Mohammed: Journey of a Fortune 500 CTO | Leadership Story">
     <meta property="og:description"
-        content="Discover Kashif's journey from engineer to global CTO, transforming enterprise technology across Fortune 500 companies and startups.">
+        content="Explore the leadership journey of Kashif Mohammed (Kash), Fortune 500 CTO driving enterprise value through AI innovation and digital transformation.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://iamkash.info/biography">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kashif - Global Technology Leader & CTO">
-    <meta name="twitter:description"
-        content="Discover Kashif's journey from engineer to global CTO, transforming enterprise technology across Fortune 500 companies and startups.">
-    <meta name="author" content="Kashif">
-    <link rel="canonical" href="https://iamkash.info/biography">
+    <meta property="og:image" content="https://iamkash.info/images/kash-bio-banner.jpg">
+    <meta property="og:site_name" content="Kashif Mohammed">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kashif Mohammed: Journey of a Fortune 500 CTO | Leadership Story">
+    <meta name="twitter:description"
+        content="Explore the leadership journey of Kashif Mohammed (Kash), Fortune 500 CTO driving enterprise value through AI innovation.">
+    <meta name="twitter:image" content="https://iamkash.info/images/kash-bio-banner.jpg">
+
+    <!-- Consolidated JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Journey of Kashif Mohammed: From Engineer to Fortune 500 CTO",
+        "description": "Professional biography and leadership journey of Kashif Mohammed, a Fortune 500 Chief Technology Officer driving enterprise value through AI innovation and digital transformation.",
+        "image": "https://iamkash.info/images/kash-bio-banner.jpg",
+        "author": {
+            "@type": "Person",
+            "givenName": "Kashif",
+            "additionalName": "I",
+            "familyName": "Mohammed",
+            "alternateName": ["Kash", "Kash M", "iamkash"],
+            "name": "Kashif Mohammed",
+            "jobTitle": "Chief Technology Officer",
+            "url": "https://iamkash.info",
+            "sameAs": [
+                "https://www.linkedin.com/in/iamkash",
+                "https://kashif-mohammed.medium.com"
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Kashif Mohammed",
+            "url": "https://iamkash.info"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://iamkash.info/biography"
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://iamkash.info"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Biography",
+                "item": "https://iamkash.info/biography"
+            }]
+        }
+    }
+    </script>
+
+    <meta name="google-site-verification" content="your-verification-code">
+    <meta name="msvalidate.01" content="your-bing-verification-code">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Financier+Display:wght@400;500;700&display=swap"
@@ -43,11 +104,17 @@
             box-sizing: border-box;
         }
 
+        /* Base Typography */
         :root {
             --ft-background: #FFF1E5;
             --ft-text: #333333;
             --ft-border: #CCC1B7;
             --ft-accent: #990F3D;
+            --h1-size: 32px;
+            --h2-size: 24px;
+            --h3-size: 20px;
+            --body-size: 16px;
+            --small-size: 14px;
         }
 
         body {
@@ -62,30 +129,32 @@
             flex-direction: column;
             overflow: hidden;
             -webkit-font-smoothing: antialiased;
+            font-size: var(--body-size);
+            line-height: 1.6;
         }
 
         header {
-            padding: 0.5rem 0;
-            margin-bottom: 1rem;
+            padding: 3rem 1rem 1rem;
             text-align: center;
-            height: auto;
-            flex-shrink: 0;
             position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .home-link {
             position: absolute;
-            left: 2rem;
-            top: 50%;
-            transform: translateY(-50%);
+            left: 1rem;
+            top: 1rem;
             color: var(--ft-accent);
             text-decoration: none;
-            font-size: 0.9rem;
+            font-size: var(--small-size);
             font-family: 'Playfair Display', serif;
             display: flex;
             align-items: center;
             gap: 0.5rem;
             transition: opacity 0.2s;
+            padding: 0.5rem;
+            background: var(--ft-background);
             z-index: 10;
         }
 
@@ -94,31 +163,42 @@
         }
 
         .home-link i {
-            font-size: 1rem;
-        }
-
-        .role {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            color: #333;
-            line-height: 1.1;
-            margin-bottom: 0.25rem;
-        }
-
-        .role-descriptor {
-            font-size: 1.25rem;
-            color: #666;
-            margin-bottom: 1.5rem;
-            line-height: 1.4;
+            font-size: var(--small-size);
         }
 
         h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 2rem;
+            font-size: var(--h1-size);
             font-weight: 700;
-            margin: 0;
-            line-height: 1;
+            margin: 0 0 1rem;
+            line-height: 1.2;
             color: #1a1a1a;
+        }
+
+        .role {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--body-size);
+            color: #333;
+            line-height: 1.2;
+            margin-bottom: 0.25rem;
+            margin-top: 2rem;
+        }
+
+        .role-descriptor {
+            font-size: var(--h3-size);
+            color: #666;
+            line-height: 1.4;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2.subtitle {
+            font-family: 'Playfair Display', serif;
+            font-size: var(--h2-size);
+            font-weight: 500;
+            margin: 0 0 1.5rem;
+            color: #1a1a1a;
+            line-height: 1.4;
         }
 
         main {
@@ -132,24 +212,22 @@
         .narrative-content {
             height: 100%;
             column-count: 3;
-            column-gap: 2.5rem;
+            column-gap: 1rem;
             column-rule: 1px solid var(--ft-border);
             column-fill: auto;
             max-width: 1600px;
             margin: 0 auto;
-            padding-bottom: 2rem;
         }
 
         .intro {
-            font-family: "Georgia", serif;
-            font-size: 20px;
+            font-size: var(--h3-size);
             line-height: 1.6;
             margin-bottom: 2rem;
             color: #1A1818;
         }
 
         p {
-            font-size: 18px;
+            font-size: var(--body-size);
             margin-bottom: 1.5rem;
             line-height: 1.6;
             color: #333333;
@@ -158,7 +236,7 @@
         .quote {
             font-family: "Financier Display", Georgia, serif;
             font-style: italic;
-            font-size: 24px;
+            font-size: var(--body-size);
             margin: 2rem 0;
             padding-left: 1.5rem;
             border-left: 2px solid var(--ft-accent);
@@ -218,113 +296,74 @@
             .narrative-content {
                 column-count: 2;
             }
-
-            h1 {
-                font-size: 42px;
-            }
         }
 
         @media (max-width: 768px) {
+            :root {
+                --h1-size: 28px;
+                --h2-size: 22px;
+                --h3-size: 18px;
+                --body-size: 16px;
+                --small-size: 14px;
+            }
+
             body {
                 overflow-y: auto;
-                /* Allow body to scroll vertically */
                 height: auto;
-                /* Let body height adjust to content */
+            }
+
+            header {
+                padding: 3.5rem 1rem 1rem;
+            }
+
+            .home-link {
+                left: 50%;
+                transform: translateX(-50%);
+                width: fit-content;
+            }
+
+            .role {
+                margin-top: 0;
             }
 
             main {
                 height: auto;
-                /* Let main content height adjust */
-                overflow-y: auto;
-                /* Allow vertical scroll */
+                overflow-y: visible;
                 overflow-x: hidden;
-                /* Prevent horizontal scroll */
-                margin-top: 60px;
-                /* Adjust margin if header height changes */
-                padding: 1.5rem 5vw;
-                /* Adjust padding */
-            }
-
-            header {
-                height: 60px;
-                /* Slightly smaller header */
-                padding: 0.5rem 1rem;
-                position: relative;
-            }
-
-            .home-link {
-                position: relative;
-                left: 0;
-                top: 0;
-                transform: none;
-                margin-bottom: 0.5rem;
-                justify-content: center;
-                font-size: 0.8rem;
-            }
-
-            .home-link i {
-                font-size: 0.9rem;
-            }
-
-            .role {
-                font-size: 0.8rem;
-                margin-bottom: 0.2rem;
-            }
-
-            h1 {
-                font-size: 1.5rem;
+                margin-top: 0;
+                padding: 1rem 5vw;
             }
 
             .narrative-content {
                 column-count: 1;
                 column-rule: none;
-                /* Remove column rule */
                 height: auto;
-                /* Let content determine height */
                 max-width: 100%;
-            }
-
-            .intro {
-                font-size: 18px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .quote {
-                font-size: 20px;
-            }
-
-            footer {
-                height: auto;
-                /* Adjust footer height */
-                padding: 1rem 0;
             }
         }
 
         @media (max-width: 480px) {
+            :root {
+                --h1-size: 24px;
+                --h2-size: 20px;
+                --h3-size: 16px;
+                --body-size: 16px;
+                --small-size: 12px;
+            }
+
             header {
-                padding: 0.5rem;
+                padding: 3rem 0.75rem 0.75rem;
             }
 
-            .home-link {
-                font-size: 0.75rem;
-            }
-
-            .role {
-                font-size: 0.7rem;
-            }
-
-            h1 {
-                font-size: 1.2rem;
+            main {
+                padding: 1rem 1rem;
             }
         }
 
         /* Additional styles for new content */
         .chapter-heading {
             font-family: "Financier Display", Georgia, serif;
-            font-size: 24px;
+            font-size: var(--h2-size);
             font-weight: 500;
             margin: 2rem 0 1rem;
             color: #1A1818;
@@ -338,27 +377,6 @@
             break-inside: avoid;
         }
     </style>
-
-    <!-- Additional Structured Data for Name Variations -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "givenName": "Kashif",
-        "additionalName": "I",
-        "familyName": "Mohammed",
-        "alternateName": ["Kash", "Kash M.", "iamkash"],
-        "name": "Kashif Mohammed",
-        "jobTitle": "Chief Technology Officer",
-        "description": "Global technology leader and CTO known as Kashif or Kash, specializing in enterprise AI, digital transformation, and platform engineering.",
-        "url": "https://iamkash.info",
-        "sameAs": [
-            "https://www.linkedin.com/in/iamkash",
-            "https://kashif-mohammed.medium.com",
-            "https://www.calonji.com"
-        ]
-    }
-    </script>
 </head>
 
 <body>
@@ -371,13 +389,13 @@
         <a href="index.html" class="home-link">
             <i class="fa fa-arrow-left"></i> Back to Home
         </a>
-        <div class="role">Chief Technology Officer | Digital Transformation Leader | AI and Cloud Strategist</div>
-        <h1>Kashif I. Mohammed</h1>
+        <h1>The Journey of Kashif Mohammed</h1>
+        <div class="role-descriptor">Chief Technology Officer & Digital Transformation Leader</div>
     </header>
 
     <main>
         <div class="narrative-content">
-            <p class="intro">
+            <p>
                 Kashif I. Mohammed is a seasoned Chief Technology Officer with 18 years of global leadership experience
                 scaling enterprise SaaS platforms, modernizing multi-cloud architectures, and driving AI-powered digital
                 transformation. He has led organizations of up to 250 global engineers, managed P&Ls exceeding $500
@@ -385,7 +403,7 @@
                 equity-backed firms, and high-growth technology enterprises.
             </p>
 
-            <p class="intro">
+            <p>
                 Kashif currently serves as Chief Technology Officer at <a href="https://www.calonji.com" target="_blank"
                     class="external-link">Calonji Inc</a> where he leads the development of <a
                     href="https://www.medally.ai" target="_blank" class="external-link">MedAlly.ai</a>, a multilingual,
@@ -396,14 +414,14 @@
                 platform modernization.
             </p>
 
-            <p class="intro">
+            <p>
                 He is recognized for his expertise in cloud transformation across AWS and Azure environments, data
                 platform engineering, Zero Trust cybersecurity, and AI strategy execution. Kashif focuses on aligning
                 technology strategy with business outcomes to drive operational excellence, revenue acceleration, and
                 long-term enterprise value creation.
             </p>
 
-            <p class="intro">
+            <p>
                 He holds an MBA from The University of Texas at Austin and a Master's degree in Computer Engineering
                 from the University of Houston–Clear Lake. He is also certified in AWS Solutions Architecture, SAFe
                 Agile Practices, and Generative AI Strategy through MIT. Kashif actively mentors emerging technology
@@ -1157,34 +1175,6 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-    <!-- Structured Data for SEO -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Kashif Mohammed - Technology Leadership Journey",
-        "author": {
-            "@type": "Person",
-            "name": "Kashif Mohammed",
-            "jobTitle": "Chief Technology Officer",
-            "url": "https://www.linkedin.com/in/iamkash/",
-            "sameAs": [
-                "https://kashif-mohammed.medium.com/about",
-                "https://www.linkedin.com/in/iamkash/"
-            ]
-        },
-        "description": "Journey of a visionary CTO who has transformed enterprise technology across Fortune 500 companies, generating over $500M in value through AI innovation and digital transformation.",
-        "keywords": "Digital Transformation, Enterprise AI, Cloud Architecture, Technology Leadership, GenAI Strategy",
-        "datePublished": "2025-03-20",
-        "dateModified": "2025-03-20",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Calonji Inc.",
-            "url": "https://www.calonji.com"
-        }
-    }
-    </script>
 </body>
 
 </html>
